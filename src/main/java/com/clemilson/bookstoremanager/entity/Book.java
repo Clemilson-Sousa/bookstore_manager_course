@@ -31,7 +31,7 @@ public class Book {
     @JoinColumn(name = "author_id")
     private Author author;
 
-    public void teste(){
+    public void sdt() {
         author.
     }
 

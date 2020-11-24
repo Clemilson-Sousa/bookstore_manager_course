@@ -15,6 +15,9 @@ public class BookService {
 
     private final BookMapper bookMapper = BookMapper.INSTANCE;
 
+    Book b = new Book();
+
+
     @Autowired
     public BookService(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
